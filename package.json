@@ -1,0 +1,23 @@
+{
+  "name": "expensetracker",
+  "version": "1.0.0",
+  "description": "Expense Tracking backend system",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiyaa-dev/expenseTracker.git"
+  },
+  "keywords": [
+    "expense",
+    "tracker"
+  ],
+  "author": "jiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiyaa-dev/expenseTracker/issues"
+  },
+  "homepage": "https://github.com/jiyaa-dev/expenseTracker#readme"
+}
