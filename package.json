@@ -1,23 +1,34 @@
 {
-  "name": "expensetracker",
-  "version": "1.0.0",
-  "description": "Expense Tracking backend system",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jiyaa-dev/expenseTracker.git"
-  },
-  "keywords": [
-    "expense",
-    "tracker"
-  ],
-  "author": "jiya",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jiyaa-dev/expenseTracker/issues"
-  },
-  "homepage": "https://github.com/jiyaa-dev/expenseTracker#readme"
+    "name": "expensetracker",
+    "version": "1.0.0",
+    "description": "Expense Tracking backend system",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node --watch server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jiyaa-dev/expenseTracker.git"
+    },
+    "keywords": [
+        "expense",
+        "tracker"
+    ],
+    "author": "jiya",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jiyaa-dev/expenseTracker/issues"
+    },
+    "homepage": "https://github.com/jiyaa-dev/expenseTracker#readme",
+    "dependencies": {
+        "bcrypt": "^6.0.0",
+        "cookie-parser": "^1.4.7",
+        "dotenv": "^17.4.2",
+        "express": "^5.2.1",
+        "joi": "^18.1.2",
+        "jsonwebtoken": "^9.0.3",
+        "mongoose": "^9.5.0"
+    }
 }
