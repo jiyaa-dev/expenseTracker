@@ -1,5 +1,5 @@
-import { DBConnect } from "./src/databases/db.js";
 import "./src/utils/dotenv.js";
+import { DBConnect } from "./src/databases/db.js";
 import express from "express";
 import authRouter from "./src/routers/auth.router.js";
 import { registrationValidationSchema } from "./src/validations/auth.validation.js";
